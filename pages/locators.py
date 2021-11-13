@@ -14,3 +14,7 @@ class ProductPageLocators():
     MESSAGE_ABOUT_ADD_TO_BASKET = '//div[@id="messages"]/div[1]//strong'
     MESSAGE_ABOUT_PRODUCT_PRICE = '//div[@id="messages"]/div[3]'
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div.alertinner")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
